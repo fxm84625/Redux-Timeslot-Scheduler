@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Boilerplate for Redux</title>
-</head>
-<body>
-  <div id='root'></div>
-  <script type="text/javascript" src="/app.bundle.js"></script></body>
-</body>
+    <title>Redux Scheduler Challenge</title>
+    <style>
+      * {
+        font-family: Helvetica;
+      }
+      table {
+        border: solid black 2px;
+        border-radius: 4px;
+      }
+      td {
+        border: solid black 1px;
+        border-radius: 4px;
+      }
+      tr {
+        height: 75px;
+      }
+      thead tr {
+        height: 40px;
+      }
+      td:hover {
+        background-color: #DDF;
+      }
+      .tableTimeslotTop, .tableTimeslotBottom {
+        text-align: left;
+        padding-left: 10px;
+      }
+      .tableTimeslotTop {
+        padding-bottom: 10px;
+      }
+      .modalBody {
+        border: 2px solid #DDf;
+        background-color: white;
+        padding: 30px;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        right: 35%;
+        bottom: 45%;
+        min-width: 300px;
+      }
+      .modalLabel {
+        float: left;
+        text-align: right;
+        padding-right: 10px;
+        width: 47%;
+      }
+      .modalField {
+        float: left;
+        width: 47%;
+      }
+      .modalButton {
+        margin-top: 5px;
+        position:relative;
+      }
+      .modalButtonContainer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='root'></div>
+    <script type="text/javascript" src="/app.bundle.js"></script></body>
+  </body>
 </html>
